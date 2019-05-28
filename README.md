@@ -43,4 +43,4 @@ Serverless的主要特点：
   小程序的渲染层和逻辑层分别由 2 个线程管理：视图层的界面使用了 WebView 进行渲染，逻辑层采用 JsCore 线程运行 JS脚本。
   事件表格（Event Table）:用来存储JavaScript 中的异步事件 (request, setTimeout, IO等) 及其对应的回调函数的列表
   事件队列 (Event Queue) :回调函数队列,当 Event Table 中的事件被触发，事件对应的 回调函数 就会被 push 进这个 Event Queue，然后等待被执行
-  ![Image Text](https://raw.githubusercontent.com/yin-chong/Study--notes/master/img/454794347-5cec9e1971f69_articlex.jpg)
+  ![Image text](https://raw.githubusercontent.com/yin-chong/Study--notes/master/img/454794347-5cec9e1971f69_articlex.jpg)
